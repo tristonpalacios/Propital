@@ -41,6 +41,7 @@ async def send_message(message: Message, user_message: str) -> None:
 @client.event
 async def on_ready() -> None:
     print(f'{client.user} is now running')
+    print('successfully finished startup')
 
 
 @client.event
